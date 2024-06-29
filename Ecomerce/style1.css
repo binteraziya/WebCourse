@@ -1,0 +1,343 @@
+/* Reset margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body background color */
+body {
+    background-color: whitesmoke;
+    font-family: 'Open Sans', sans-serif; /* Apply Google Font */
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: #0a3d62; /* Deep blue background color */
+    padding: 10px 0;
+}
+
+/* Navbar brand styles */
+.navbar-brand img {
+    height: 80px; /* Adjust image height */
+}
+
+/* Navbar link styles */
+.navbar-nav .nav-link {
+    text-decoration: none;
+    color: white; /* White text color */
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-right: 15px;
+    transition: color 0.3s;
+}
+
+.navbar-nav .nav-link.active {
+    color: #20db14; /* Active link color (green) */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ff0051; /* Change color on hover (pink) */
+}
+
+/* Search input styles */
+.search {
+    height: 45px;
+    outline: none;
+    border: 2px solid rgb(20, 219, 20);
+    background-color: whitesmoke;
+    border-radius: 20px 0 0 20px;
+}
+
+/* Button styles */
+.btnl {
+    height: 45px;
+    outline: none;
+    border: 2px solid rgb(20, 219, 20);
+    background-color: aqua;
+    border-radius: 0 20px 20px 0;
+    transition: background-color 0.4s;
+}
+
+.btnl:hover {
+    background-color: rgb(20, 219, 20); 
+}
+
+/* Icon styles */
+.bi.bi-bag-plus {
+    font-size: 20px;
+    color: black;
+    cursor: pointer;
+    padding-top: 5px;
+    transition: color 0.4s;
+}
+
+.bi.bi-bag-plus:hover {
+    color: rgb(20, 219, 20);
+}
+
+/* Navbar toggler styles */
+.navbar-toggler {
+    font-size: 23px;
+    color: white;
+    border: none;
+    background: transparent;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+/* Main section styles */
+.main {
+    background: url('fruit.jpg') no-repeat center center;
+    background-size: cover;
+    height: 60vh; /* Adjust height to be 60% of the viewport height */
+    width: 100%;
+    font-family: 'Roboto', sans-serif; /* Apply Google Font */
+}
+
+.main h1 {
+    font-size: 5rem;
+}
+
+.main p:nth-child(1) {
+    font-size: 18px;
+    font-weight: 500;
+
+}
+
+.main p:nth-child(2) {
+    font-size: 15px;
+    color: gray;
+}
+
+/* Button styles for main section */
+.mbtn1, .mbtn2 {
+    height: 50px;
+    width: 25%;
+    color: white;
+    background: rgb(20, 219, 20); 
+    border-radius: 50px;
+    transition: all 0.4s;
+}
+
+.mbtn1:hover, .mbtn2:hover {
+    background-color: rgb(20, 150, 20);
+}
+
+.about-image {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0; /* Adds some spacing around the image */
+  }
+  
+  .about {
+    text-align: center;
+  }
+  
+  .about h2 {
+    margin-bottom: 20px;
+  }
+  
+  /* Applying font size and weight to the first paragraph */
+  .about p:first-of-type {
+    font-size: 3rem;
+    font-weight: bold; /* Ensures the text is bold */
+  }
+  
+  /* Applying font size and color to the second paragraph */
+  .about p:nth-of-type(2) {
+    font-size: 18px;
+    color: gray;
+  }
+  /* Welcome section styles */
+.welcome {
+    background-color: rgb(20, 150, 20); /* Corrects the background color */
+    color: white; /* Sets the text color to white for better contrast */
+    padding: 40px 0; /* Adds some padding to the section for better spacing */
+  }
+  
+  .welcome p, .welcome h2 {
+    color: black; /* Ensures the text is readable against the green background */
+  }
+  
+  .line {
+    width: 50px;
+    height: 4px;
+    background-color: white; /* A line with color matching the text */
+    margin: auto;
+  }
+  .welcome.card{
+  border:none;
+  border-radius:0;
+  cursor:pointer;
+}
+.welcome li{
+   font-size: 45px;
+   color: rgb(20, 150, 20);
+}
+.welcome h2{
+    font-weight: lighter;
+    padding:10px;
+}
+.products h1 {
+    font-size: 5rem;
+}
+
+.products  p:nth-child(1) {
+    font-size: 18px;
+    font-weight: 500;
+
+}
+
+.products  p:nth-child(2) {
+    font-size: 15px;
+    color: gray;
+}
+.star {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+  }
+  
+  .star span i {
+    font-size: 24px;
+    color: gold;
+  }
+  
+  .Products .card {
+    transition: transform 0.3s;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+  }
+  
+  .Products .card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .Products img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .Products p {
+    margin: 10px 0;
+  }
+  
+  .btnc {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btnc:hover {
+    background-color: #218838;
+  }
+  .Contact .input-group-text {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .Contact .form-control {
+    border-radius: 0;
+  }
+  
+  .Contact .btn-primary {
+    background-color: #28a745;
+    border: none;
+    border-radius: 0;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .Contact .btn-primary:hover {
+    background-color: #218838;
+  }
+  
+  .Contact .input-group {
+    margin-bottom: 15px;
+  }
+  
+  .Contact h2 {
+    font-weight: lighter;
+    padding: 10px;
+  }
+  
+  .Contact p {
+    font-size: 16px;
+  }
+  
+  .Contact .container {
+    max-width: 600px;
+  }
+  
+  @media (max-width: 768px) {
+    .Contact .form-row {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .Contact .form-row .col {
+      margin-bottom: 15px;
+    }
+  }
+  .footer {
+    background-color: #343a40; /* Dark background */
+    color: white; /* White text */
+  }
+  
+  .footer a {
+    color: white; /* White links */
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline; /* Underline links on hover */
+  }
+  
+  .footer h5 {
+    font-size: 8px; /* Font size for footer headings */
+    margin-bottom: 20px;
+  }
+  
+  .footer p {
+    font-size: 0.8rem; /* Adjust font size for footer paragraphs */
+  }
+  
+  .footer .bi {
+    font-size: 18px; /* Font size for icons */
+  }
+  
+  .footer .list-unstyled {
+    list-style: none; /* Remove bullet points */
+    padding-left: 0; /* Remove padding */
+  }
+  
+  .footer .list-unstyled li {
+    margin-bottom: 10px; /* Margin for list items */
+  }
+  
+  .footer .row {
+    margin-bottom: 30px; /* Margin for rows */
+  }
+  
+  .footer .row.mt-3 {
+    margin-top: 20px; /* Margin for rows with class mt-3 */
+  }
+  
+  .p1 {
+    font-size: 2rem !important; /* Forcefully set a very large font size for paragraphs with class p1 */
+  }
+  
